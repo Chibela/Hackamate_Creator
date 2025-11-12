@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0e0e0e;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1f1f1f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.detail-container {
+  background: #1b1b1b;
+  padding: 40px;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255,255,255,0.1);
+}
+
+.color-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.color-card {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.color-card:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn.danger {
+  background: crimson;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #333;
+  color: white;
+}
+
+/* For the profile placeholder inside cards or detail views */
+.profile-pic {
+  width: 80px;            
+  height: 80px;
+  border-radius: 50%;      
+  object-fit: cover;       
+  border: 2px solid #ddd;  
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto 10px;     
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+/* If used inside hackamate cards */
+.hackamate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1b1b1b;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 280px;
+  height: auto;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.hackamate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
