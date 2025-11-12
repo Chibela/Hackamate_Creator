@@ -1,4 +1,4 @@
-# Web Development Project 7 - *Hackamate Dashboard*
+# Web Development Project 7 - _Hackamate Dashboard_
 
 Submitted by: **Chibela Changwe**
 
@@ -13,20 +13,24 @@ Time spent: **12** hours spent in total
 The following **required** functionality is completed:
 
 - [x] **The web app contains a page that features a create form to add a new Hackamate**
+
   - Users can name the Hackamate
   - Users can set the Hackamate’s attributes by clicking on one of several color values
   - Users can add a short bio describing themselves
 
 - [x] **The web app includes a summary page of all the user’s added Hackamates**
+
   - The app displays all created Hackamates with their details in styled cards
   - The summary page is sorted by creation date, showing the most recent Hackamates first
 
 - [x] **A previously created Hackamate can be updated from the list of Hackamates in the summary page**
+
   - Each Hackamate card includes an “Edit” button to update their attributes
   - The update form displays the current Hackamate information
   - After editing, the updates are immediately reflected across all views
 
 - [x] **A previously created Hackamate can be deleted from the Hackamate list**
+
   - From the edit or detail view, users can delete a Hackamate
   - Once deleted, the Hackamate no longer appears on the summary page
 
@@ -51,11 +55,11 @@ The following **optional** features are implemented:
 
 ## 🚀 Additional Features
 
-* [x] Added success messages when new Hackamates are created  
-* [x] Responsive layout with smaller, cleaner Hackamate cards  
-* [x] Polished UI with color-based card borders and glow effects  
-* [x] Integrated Supabase database connection via `supabase-js`  
-* [x] Route-based navigation using React Router  
+- [x] Added success messages when new Hackamates are created
+- [x] Responsive layout with smaller, cleaner Hackamate cards
+- [x] Polished UI with color-based card borders and glow effects
+- [x] Integrated Supabase database connection via `supabase-js`
+- [x] Route-based navigation using React Router
 
 ---
 
@@ -64,7 +68,6 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://raw.githubusercontent.com/Chibela/Hackamate_Creator/main/public/walkthrough7.gif' title='Hackamate App Video Walkthrough' alt='Hackamate App Video Walkthrough' />
-
 
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
@@ -77,6 +80,6 @@ One challenge encountered was ensuring consistent routing and state synchronizat
 
 ---
 
-## 🪪 License
+## License
 
     Copyright (c) 2025 Chibela Changwe

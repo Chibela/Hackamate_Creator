@@ -34,11 +34,11 @@ export default function Gallery() {
   }
 
   return (
-    <div className="p-8 min-h-screen bg-gray-950 text-white">
-      <h1 className="text-4xl mb-8 font-bold text-center text-purple-400">
+    <div className="gallery-container">
+      <h1>
         Your Hackamate Gallery 🚀
       </h1>
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="gallery-row">
         {hackamates.map((h) => (
           <HackamateCard key={h.id} hackamate={h} />
         ))}
